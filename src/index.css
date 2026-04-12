@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #0a0e14; }
+  ::-webkit-scrollbar-thumb { background: #20262f; border-radius: 10px; }
+  ::-webkit-scrollbar-thumb:hover { background: #8cfece; }
+
+  body {
+    font-family: 'Syne', sans-serif;
+    background-color: #0a0e14;
+    color: #f1f3fc;
+  }
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+    font-family: 'Material Symbols Outlined';
+  }
+
+  .material-icons-filled {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+
+  .kinetic-gradient {
+    background: linear-gradient(135deg, #8cfece 0%, #3db489 100%);
+  }
+
+  .teal-bloom {
+    box-shadow: 0px 0px 40px rgba(140, 254, 206, 0.12);
+  }
+
+  .obsidian-glass {
+    backdrop-filter: blur(12px);
+    background: rgba(21, 26, 33, 0.8);
+  }
+
+  .skeleton-pulse {
+    background: #20262f;
+    animation: skeleton 1.5s ease-in-out infinite;
+  }
+
+  @keyframes skeleton {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.8; }
+  }
+}

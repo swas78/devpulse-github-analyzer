@@ -1,0 +1,21 @@
+{
+  "name": "DevPulse — GitHub Analyzer",
+  "short_name": "DevPulse",
+  "description": "GitHub profile and repository analyzer with Dev Score",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e14",
+  "theme_color": "#8cfece",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
