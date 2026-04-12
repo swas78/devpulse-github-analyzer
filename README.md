@@ -18,7 +18,9 @@ DevPulse is a web application that allows users to:
 This project was built as part of a web development milestone project to demonstrate skills in JavaScript, React, API integration, and UI development.
 
 ---
-
+🌐 Live Demo
+🔗 View Live Project (https://devpulse-github-analyzer.vercel.app/)
+--
 ## 🚀 Features
 
 ### Core Features
